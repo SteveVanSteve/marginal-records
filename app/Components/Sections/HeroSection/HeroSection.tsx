@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 
 function HeroSection() {
@@ -13,6 +14,18 @@ function HeroSection() {
         );
       })}
     </div>
+
+    <nav className="px-[18rem] fixed md:relative top-0 z-50 w-full shadow-md md:shadow-none flex justify-between bg-1
+      border-b border-colour-1">
+        <div className="flex items-center gap-2 py-5 lg:py-0">
+             <Image src="/mobile-logo.png"
+               alt="logo"
+               width={30} 
+               height={30}
+              />
+              <h1>Logo</h1> 
+        </div>
+      </nav>
     </section>
   );
 }
