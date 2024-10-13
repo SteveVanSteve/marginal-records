@@ -1,1 +1,13 @@
 export const search = <i className="fa-solid fa-magnifying-glass"></i>
+export const arrowRight = <i className="fa-solid fa-arrow-right-long"></i>;
+export const arrowDown = <i className="fa-solid fa-arrow-down-long"></i>;
+export const desktop = <i className="fa-solid fa-desktop"></i>;
+export const check = <i className="fa-solid fa-check"></i>;
+export const instagram = <i className="fa-brands fa-instagram"></i>;
+export const facebook = <i className="fa-brands fa-facebook"></i>;
+export const arrowRt = <i className="fa-solid fa-arrow-right"></i>;
+export const chevronDown = <i className="fa-solid fa-chevron-down"></i>;
+export const certificate = <i className="fa-regular fa-sun"></i>;
+export const circle = <i className="fa-solid fa-circle-dot"></i>;
+export const phone = <i className="fa-solid fa-phone"></i>;
+export const email = <i className="fa-solid fa-envelope"></i>;

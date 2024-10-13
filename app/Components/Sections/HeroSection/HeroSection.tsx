@@ -22,10 +22,11 @@ function HeroSection() {
     <nav className="px-[18rem] fixed md:relative top-0 z-50 w-full shadow-md md:shadow-none flex justify-between bg-1
       border-b border-colour-1">
         <div className="flex items-center gap-2 py-5 lg:py-0">
-             <Image src="/mobile-logo.png"
-               alt="logo"
+             <Image src="/images/marginal-mawn-trimmed.png"
+               alt="logo 1"
                width={30} 
                height={30}
+               className='rounded-lg'
               />
               <h1>Marginal Records</h1> 
         </div>
@@ -33,7 +34,7 @@ function HeroSection() {
           {navLinks.map((link, i) => {
             return (
             <li key={i}>
-              <Link href={link.url} className="py-4">
+              <Link href={link.url} className="p-4">
               {link.name}
               </Link>
             </li>
@@ -44,6 +45,23 @@ function HeroSection() {
           {search}
         </button>
       </nav>
+      
+      <div>
+        <div>
+          <p className="font-medium text-white">Welcome to the Marginal Records website. Hopefully you see something interesting.</p>
+        </div>
+        <h1>
+          A small organic music record label with its roots growing from the North East of Ireland.
+        </h1>
+        <div>
+          <Image 
+          src="/images/old-marginal-records-logo.png"
+          alt="logo 2" 
+          width={250} 
+          height={250}
+          className='rounded-lg' />
+        </div>
+      </div>
     </section>
   );
 }
