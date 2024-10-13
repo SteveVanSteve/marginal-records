@@ -12,6 +12,14 @@ export const navLinks = [
         url: "/artsts",
     },
     {
+        name: "Gigs & Shows",
+        url: "/gigs",
+    },
+    {
+        name: "Merchandise",
+        url: "/merchandise",
+    },
+    {
         name: "Archive",
         url: "/archive",
     },

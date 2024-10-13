@@ -1,0 +1,1 @@
+export const search = <i className="fa-solid fa-magnifying-glass"></i>

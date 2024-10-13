@@ -1,3 +1,4 @@
+import { search } from '@/app/utils/icons';
 import { navLinks } from '@/app/utils/utils';
 import { link } from 'fs';
 import Image from 'next/image';
@@ -39,7 +40,9 @@ function HeroSection() {
             );
           })}
         </ul>
-        <button className="hidden lg:inline-block py-6 px-10 text-2 text-gray-400 border-x border-colour-1 hover:bg-2 transition-all duration-200 ease-in-out"></button>
+        <button className="hidden lg:inline-block py-6 px-10 text-2xl text-gray-400 border-x border-colour-1 hover:bg-2 transition-all duration-200 ease-in-out">
+          {search}
+        </button>
       </nav>
     </section>
   );
